@@ -19,7 +19,6 @@ html {
 
 .App {
   min-height: 100vh;
-  background: #F1F7FD;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -27,5 +26,6 @@ html {
   min-height: 100vh;
   padding-left: 2rem;
   padding-right: 2rem;
+  color: #fff;
 }
 

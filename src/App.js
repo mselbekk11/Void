@@ -5,7 +5,8 @@ import NavBar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 
 // import Home from './components/home/home';
-import CourseOne from './components/course-one/course-one';
+import Void from './components/void/void';
+// import CourseOne from './components/course-one/course-one';
 
 // import NavBar from './components/navbar/navbar';
 // import Home from './home';
@@ -16,10 +17,11 @@ import CourseOne from './components/course-one/course-one';
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      {/* <NavBar /> */}
       {/* <Home /> */}
-      <CourseOne />
-      <Footer />
+      {/* <CourseOne /> */}
+      <Void/>
+      {/* <Footer /> */}
     </div>
   );
 }
