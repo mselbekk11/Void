@@ -10,7 +10,7 @@ function Void(){
         <div id="void">
             <div className="message">
             <img src={HeroImage} alt="metamask logo"></img>
-            <h2>Coming soon</h2>
+            <h2>Coming soon!</h2>
             </div>
         </div>
       );
