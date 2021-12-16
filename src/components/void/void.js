@@ -17,3 +17,23 @@ function Void(){
 }
 
 export default Void;
+
+// function Void(){
+//     return (
+//         <div id="void">
+//             <div class="flipper">
+//                 <div class="front">
+//                     <img src={HeroImage} alt="metamask logo"></img>
+//                     <h2>Coming soon!</h2>
+//                     <div class="back">
+//                     <img src={HeroImage} alt="metamask logo"></img>
+//                     <h2>Coming soon!</h2>
+//                     </div>
+//                 </div>
+//             </div>    
+//         </div>
+
+//       );
+// }
+
+// export default Void;
