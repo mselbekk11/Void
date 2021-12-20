@@ -1,6 +1,6 @@
 import React from "react";
 import  "./void.css"
-import HeroImage from '../../assets/img/void-logo.png';
+import HeroImage from '../../assets/img/planet-2.png';
 // import VideoImage from '../../assets/img/video-image.png';
 // import courseOne from '../../assets/img/blockchain2.png';
 // import courseTwo from '../../assets/img/Constellation-Logo-3.png';
@@ -10,7 +10,7 @@ function Void(){
         <div id="void">
             <div className="message">
             <img src={HeroImage} alt="metamask logo"></img>
-            <h2>Coming soon!</h2>
+            <h2>Coming soon</h2>
             </div>
         </div>
       );
