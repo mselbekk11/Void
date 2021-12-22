@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import  "./void.css"
-import  "./stars.css"
+import  "./stars-two.css"
 import HeroImage from '../../assets/img/planet-3.png';
 
 
@@ -55,7 +55,7 @@ function Void(){
 
             <div className="message">
             <img src={HeroImage} alt="metamask logo"></img>
-            <h2>Coming soon</h2>
+            <h2>Coming soonn</h2>
             <div className="timer">
                 <div className="days space">
                     <p>{timerDays}</p>
