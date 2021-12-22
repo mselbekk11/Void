@@ -136,5 +136,13 @@
 
   }
 
+  @media only screen and (max-width: 360px) {
+
+    #void {
+      padding: 1rem;
+    }
+
+  }
+
 
 
