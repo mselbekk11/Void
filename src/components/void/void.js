@@ -1,9 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import  "./void.css"
-import HeroImage from '../../assets/img/planet-2.png';
-// import VideoImage from '../../assets/img/video-image.png';
-// import courseOne from '../../assets/img/blockchain2.png';
-// import courseTwo from '../../assets/img/Constellation-Logo-3.png';
+import  "./stars.css"
+import HeroImage from '../../assets/img/planet-3.png';
+
 
 function Void(){
     const [timerDays, setTimerDays] = useState('00');
@@ -49,6 +48,11 @@ function Void(){
 
     return (
         <div id="void">
+
+                <div id='stars'></div>
+                <div id='stars2'></div>
+                <div id='stars3'></div>
+
             <div className="message">
             <img src={HeroImage} alt="metamask logo"></img>
             <h2>Coming soon</h2>
@@ -76,23 +80,3 @@ function Void(){
 }
 
 export default Void;
-
-// function Void(){
-//     return (
-//         <div id="void">
-//             <div class="flipper">
-//                 <div class="front">
-//                     <img src={HeroImage} alt="metamask logo"></img>
-//                     <h2>Coming soon!</h2>
-//                     <div class="back">
-//                     <img src={HeroImage} alt="metamask logo"></img>
-//                     <h2>Coming soon!</h2>
-//                     </div>
-//                 </div>
-//             </div>    
-//         </div>
-
-//       );
-// }
-
-// export default Void;
